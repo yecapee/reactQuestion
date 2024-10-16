@@ -56,6 +56,7 @@ function getUniqueNumber(items) {
 #### Interface
 Interface 是一個定義物件結構的規範,用來定義物件應該有哪些屬性和方法,但不會實現具體的邏輯
 Interface 有助於保持代碼的一致性和可讀性
+
 **使用場景**
 >在多個類之間共享結構時，可以用 Interface 確保結構相同。
 >定義 API 返回的物件結構或函數的參數，確保代碼符合預期的輸入和輸出。
@@ -75,6 +76,7 @@ function printUser(user: User): void {
 #### Enum
 Enum是TypeScript的數據類型, 用於定義一組命名的常數, 可以提高代碼的可讀性, 讓代碼更加語義化
 Enum可以有number或string
+
 **使用場景**
 >當有一組固定的常數值（如狀態、類型）時, 用 Enum 來代表它們會讓代碼更容易理解和維護
 >使用枚舉可以防止使用錯誤的常量值
